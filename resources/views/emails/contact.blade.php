@@ -6,6 +6,6 @@
 <strong>Email: </strong>{{ $data->email }} <br>
 <strong>Phone: </strong>{{ $data->phone }} <br>
 <strong>Subject: </strong>{{ $data->subject }} <br>
-<strong>Message: </strong>{{ $data->user_query }} <br><br>
+<strong>Message: </strong>{{ $data->message }} <br><br>
   
 Thank you

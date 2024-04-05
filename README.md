@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -63,4 +63,26 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
+
+1. composer update or composer install
+2. .env file update
+<!-- 4. How to get google API servive login?
+    1. go to this link https://console.cloud.google.com/apis/dashboard?project=arboreal-lane-419215
+    2. click sidebar menu Crendential you see create crendential above click then OAuth client ID click create crendential -->
+3. config database then php artisan migration.
+3. How to generate email password update in laravel .env file?
+    1. go to google manage setting
+    2. click sidebar Security
+    3. you see search bar above type App password
+    4. click App password then type app name like localhost you see generates app password
+       that password put laravel .env file.
+4. update mail configuration .env file
+    MAIL_MAILER=smtp
+    MAIL_HOST=smtp.gmail.com
+    MAIL_PORT=465
+    MAIL_USERNAME=jmsiva123@gmail.com
+    MAIL_PASSWORD=ojfskxvnlbrzjdye (google generate password)
+    MAIL_ENCRYPTION=tls
+    MAIL_FROM_ADDRESS="jmsiva123@gmail.com"
+    MAIL_FROM_NAME="This is my data"
